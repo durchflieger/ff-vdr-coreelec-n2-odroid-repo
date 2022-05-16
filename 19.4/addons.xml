@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="ff-vdr-frontend"
+       name="ff-vdr-frontend"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+    <import addon="ff-vdr-plugin-softhdodroid" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>VDR frontend control.</summary>
+    <description>
+VDR frontend control.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-media-modules-aml"
+       name="ff-vdr-media-modules-aml"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Amlogic meson linux driver.</summary>
+    <description>
+Amlogic meson linux driver.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-dfatmo"
+       name="ff-vdr-plugin-dfatmo"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DFAtmo allows you to drive a colored back lighting for TVs similar to the Ambilight of Philips televisions.</summary>
+    <description>
+DFAtmo allows you to drive a colored back lighting for TVs similar to the Ambilight of Philips televisions.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-remoteosd"
+       name="ff-vdr-plugin-remoteosd"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+    <import addon="ff-vdr-plugin-svdrpservice" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Display the menu of a remote VDR as submenu item of your local VDR menu.</summary>
+    <description>
+Display the menu of a remote VDR as submenu item of your local VDR menu.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-satip"
+       name="ff-vdr-plugin-satip"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>This is an SAT>IP plugin for the Video Disk Recorder (VDR).</summary>
+    <description>
+This is an SAT>IP plugin for the Video Disk Recorder (VDR).
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-softhdodroid"
+       name="ff-vdr-plugin-softhdodroid"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A VDR video driver for Odroid hardware.</summary>
+    <description>
+A VDR video driver for Odroid hardware.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-streamdev"
+       name="ff-vdr-plugin-streamdev"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>This PlugIn is a VDR implementation of Video Transfer and a basic HTTP Streaming Protocol.</summary>
+    <description>
+This PlugIn is a VDR implementation of Video Transfer and a basic HTTP Streaming Protocol.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-plugin-svdrpservice"
+       name="ff-vdr-plugin-svdrpservice"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>This plugin offers SVDRP connections as a service to other plugins.</summary>
+    <description>
+This plugin offers SVDRP connections as a service to other plugins.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-repository" name="ff-vdr-repository" version="19.4.100" provider-name="df">
+	<extension point="xbmc.addon.repository">
+		<dir>
+			<info>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml</info>
+			<checksum>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml.sha256</checksum>
+			<datadir>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/</datadir>
+			<hashes>sha256</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+			<news></news>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.png</fanart>
+			</assets>
+	</extension>
+</addon>
+<addon id="ff-vdr"
+       name="ff-vdr"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A DVB TV server application.</summary>
+    <description>
+A DVB TV server application.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="ff-vdr-eventlircd"
+       name="ff-vdr-eventlircd"
+       version="19.4.100"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The eventlircd daemon provides four functions for LIRC devices</summary>
+    <description>
+The eventlircd daemon provides four functions for LIRC devices and has extensions to control LGE devices
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+</addons>
