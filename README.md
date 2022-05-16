@@ -46,11 +46,12 @@ The `ff-vdr` addon comes already with a preconfigured `remote.conf` so that your
 
 ## Important file locations:
 
-- `/storage/.vdr/args` -> Command line arguments for VDR and VDR plugins.
-- `/storage/.vdr/config` -> Configuration files e.g. settings.conf, channels.conf ....
-- `/storage/.vdr/command-hooks` -> Directory for command menu entrys.
-- `/storage/.vdr/shutdown-hooks` -> Directory for shutdown scripts.
-- `/storage/.vdr/recording-hooks` -> Directory for recording scripts.
+- `/storage/.config/vdr/args` -> Command line arguments for VDR and VDR plugins.
+- `/storage/.config/vdr/config` -> Configuration files e.g. settings.conf, channels.conf ....
+- `/storage/.config/vdr/command-hooks` -> Directory for command menu entrys.
+- `/storage/.config/vdr/shutdown-hooks` -> Directory for shutdown scripts.
+- `/storage/.config/vdr/recording-hooks` -> Directory for recording scripts.
+- `/storage/.config/vdr-frontend-hook.sh` -> Hook script called by start/stop of vdr-frontend
 - `/storage/.cache/vdr` -> Directory used as cache by VDR e.g. epg.data ....
 - `/storage/videos` -> Directory for recordings
 
@@ -60,6 +61,7 @@ The `ff-vdr` addon comes already with a preconfigured `remote.conf` so that your
 
 | Addon | Version |
 | ----- | ------- |
+| ff-vdr-eventlircd | 19.4.100 |
 | ff-vdr-frontend | 19.4.100 |
 | ff-vdr-media-modules-aml | 19.4.100 |
 | ff-vdr-plugin-dfatmo | 19.4.100 |
@@ -70,7 +72,6 @@ The `ff-vdr` addon comes already with a preconfigured `remote.conf` so that your
 | ff-vdr-plugin-svdrpservice | 19.4.100 |
 | ff-vdr-repository | 19.4.100 |
 | ff-vdr | 19.4.100 |
-| ff-vdr-eventlircd | 19.4.100 |
 
 ## TODO
 
