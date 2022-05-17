@@ -1,6 +1,5 @@
 # Kodi addon repository with VDR for CoreELEC
-This is the kodi addon repository providing a **F**ull-**F**eatured VDR for
-CoreELEC provided by df. 
+This is the kodi addon repository providing a **F**ull-**F**eatured VDR for CoreELEC provided by df. 
 
 This VDR distribution is based on the idea of using Kodi as a package manager for installation and automatic software update distribution since the CoreELEC does not include a full package manager.
 
@@ -13,6 +12,24 @@ Project: Amlogic-ce\
 Device: Amlogic-ng\
 Subdevices: Odroid_N2\
 Arch: arm
+
+## List of available addons:
+
+### Addons for CoreELEC-Version: 19.4
+
+| Addon | Version |
+| ----- | ------- |
+| ff-vdr-eventlircd | 19.4.100 |
+| ff-vdr-frontend | 19.4.100 |
+| ff-vdr-media-modules-aml | 19.4.100 |
+| ff-vdr-plugin-dfatmo | 19.4.100 |
+| ff-vdr-plugin-remoteosd | 19.4.100 |
+| ff-vdr-plugin-satip | 19.4.100 |
+| ff-vdr-plugin-softhdodroid | 19.4.100 |
+| ff-vdr-plugin-streamdev | 19.4.100 |
+| ff-vdr-plugin-svdrpservice | 19.4.100 |
+| ff-vdr | 19.4.100 |
+| ff-vdr-repository | 19.4.100 |
 
 ## Installation steps:
 
@@ -55,24 +72,19 @@ The `ff-vdr` addon comes already with a preconfigured `remote.conf` so that your
 - `/storage/.cache/vdr` -> Directory used as cache by VDR e.g. epg.data ....
 - `/storage/videos` -> Directory for recordings
 
-## List of available addons:
+## Notes for specific packages:
 
-### Addons for CoreELEC-Version: 19.4
+### ff-vdr-media-modules-aml
+This package provides Amlogic media driver kernel modules which support the Picture-In-Picture feature of softhdodroid.
+You should install this package only for PIP support.
+After installation reboot your system.
 
-| Addon | Version |
-| ----- | ------- |
-| ff-vdr-eventlircd | 19.4.100 |
-| ff-vdr-frontend | 19.4.100 |
-| ff-vdr-media-modules-aml | 19.4.100 |
-| ff-vdr-plugin-dfatmo | 19.4.100 |
-| ff-vdr-plugin-remoteosd | 19.4.100 |
-| ff-vdr-plugin-satip | 19.4.100 |
-| ff-vdr-plugin-softhdodroid | 19.4.100 |
-| ff-vdr-plugin-streamdev | 19.4.100 |
-| ff-vdr-plugin-svdrpservice | 19.4.100 |
-| ff-vdr-repository | 19.4.100 |
-| ff-vdr | 19.4.100 |
+### ff-vdr-eventlircd
+This packages provides a enhanced eventlircd daemon that support sending commands to LG TV's over a serial connection.
+Do not install this package.
 
 ## TODO
 
-Unfortionally the addon management features of Kodi are limited. They did not provid sufficient control while removing addons. Because of that removing ff-vdr addons will currently not remove all installed resources.
+Unfortionally the addon management features of Kodi are limited.
+They did not provid sufficient control while removing addons.
+Because of that removing ff-vdr addons will currently not remove all installed resources.
