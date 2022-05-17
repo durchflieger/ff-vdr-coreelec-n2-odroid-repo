@@ -323,9 +323,9 @@ A DVB TV server application.
 	<extension point="xbmc.addon.repository">
 		<dir>
 			<info>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml</info>
-			<checksum>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml.sha256</checksum>
+			<checksum>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml.md5</checksum>
 			<datadir>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/</datadir>
-			<hashes>sha256</hashes>
+			<hashes>md5</hashes>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
