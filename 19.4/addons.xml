@@ -288,6 +288,24 @@ This plugin offers SVDRP connections as a service to other plugins.
     </assets>
   </extension>
 </addon>
+<addon id="ff-vdr-repository" name="ff-vdr-repository" version="19.4.100" provider-name="df">
+	<extension point="xbmc.addon.repository">
+		<dir>
+			<info>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml</info>
+			<checksum>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml.sha256</checksum>
+			<datadir>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/</datadir>
+			<hashes>sha256</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+			<news></news>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.png</fanart>
+			</assets>
+	</extension>
+</addon>
 <addon id="ff-vdr"
        name="ff-vdr"
        version="19.4.100"
@@ -319,22 +337,36 @@ A DVB TV server application.
     </assets>
   </extension>
 </addon>
-<addon id="ff-vdr-repository" name="ff-vdr-repository" version="19.4.100" provider-name="df">
-	<extension point="xbmc.addon.repository">
-		<dir>
-			<info>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml</info>
-			<checksum>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/addons.xml.sha256</checksum>
-			<datadir>https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/</datadir>
-			<hashes>sha256</hashes>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-			<news></news>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.png</fanart>
-			</assets>
-	</extension>
+<addon id="ff-vdr-plugin-streamdev"
+       name="ff-vdr-plugin-streamdev"
+       version="19.4.101"
+       provider-name="df">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>This PlugIn is a VDR implementation of Video Transfer and a basic HTTP Streaming Protocol.</summary>
+    <description>
+This PlugIn is a VDR implementation of Video Transfer and a basic HTTP Streaming Protocol.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
 </addon>
 </addons>

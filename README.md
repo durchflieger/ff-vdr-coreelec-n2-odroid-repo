@@ -28,8 +28,9 @@ Arch: arm
 | ff-vdr-plugin-softhdodroid | 19.4.100 |
 | ff-vdr-plugin-streamdev | 19.4.100 |
 | ff-vdr-plugin-svdrpservice | 19.4.100 |
-| ff-vdr | 19.4.100 |
 | ff-vdr-repository | 19.4.100 |
+| ff-vdr | 19.4.100 |
+| ff-vdr-plugin-streamdev | 19.4.101 |
 
 ## Installation steps:
 
