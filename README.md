@@ -50,7 +50,8 @@ To use this version download and copy this [ff-vdr repository kodi addon](https:
 
 - Open the settings in Kodi for the addon `ff-vdr` and select whether the VDR process should continue to run in the background when Kodi is running or is stopped. The former makes sense if the VDR is also used for recording. The latter if it is only used as an output client. Furthermore you can choose if the VDR or Kodi should be executed after the start of the system.
 
-- Now it's time to do further configuration of VDR outside of Kodi e.g. copy a channel.conf and tweak settings in directory `/storage/.vdr`.
+- Now it's time to do further configuration of VDR outside of Kodi e.g. copy a
+  channel.conf and tweak settings in directory `/storage/.config/vdr`.
 
 To start and/or switch to VDR exceute the `ff-vdr-frontend` addon available in the progamm group of Kodi.
 
