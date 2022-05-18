@@ -16,6 +16,7 @@ Arch: arm
 ## List of available addons:
 
 ### Addons for CoreELEC-Version: 19.4
+To use this version download and copy this [ff-vdr repository kodi addon](https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/ff-vdr-repository/ff-vdr-repository-19.4.100.zip) to your device.
 
 | Addon | Version |
 | ----- | ------- |
@@ -39,7 +40,7 @@ Arch: arm
 
 - In Kodi system settings allow installation of addons from unknown locations.
 
-- Download and copy the [ff-vdr repository kodi addon](https://durchflieger.github.io/ff-vdr-coreelec-n2-odroid-repo/19.4/ff-vdr-repository/ff-vdr-repository-19.4.100.zip) to your device.
+- Download and copy the ff-vdr-repository kodi addon that corresponds to your CoreELEC version to your device.
 
 - Use `install from zip` in Kodi to install the repository addon. Further installation of ff-vdr addons in Kodi is done by using this repository as source location.
 
