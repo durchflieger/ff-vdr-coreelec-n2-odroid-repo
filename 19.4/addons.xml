@@ -31,6 +31,37 @@ The eventlircd daemon provides four functions for LIRC devices and has extension
     </assets>
   </extension>
 </addon>
+<addon id="ff-vdr-fonts-vdrsymbols"
+       name="ff-vdr-fonts-vdrsymbols"
+       version="19.4.100"
+       provider-name="df">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A truetype font based on DejaVu which also contains characters used by some plugins and patches for VDR.</summary>
+    <description>
+A truetype font based on DejaVu which also contains characters used by some plugins and patches for VDR.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="ff-vdr-frontend"
        name="ff-vdr-frontend"
        version="19.4.100"
@@ -369,9 +400,9 @@ A DVB TV server application.
     </assets>
   </extension>
 </addon>
-<addon id="ff-vdr-fonts-vdrsymbols"
-       name="ff-vdr-fonts-vdrsymbols"
-       version="19.4.100"
+<addon id="ff-vdr"
+       name="ff-vdr"
+       version="19.4.101"
        provider-name="df">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -381,9 +412,9 @@ A DVB TV server application.
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>A truetype font based on DejaVu which also contains characters used by some plugins and patches for VDR.</summary>
+    <summary>A DVB TV server application.</summary>
     <description>
-A truetype font based on DejaVu which also contains characters used by some plugins and patches for VDR.
+A DVB TV server application.
     </description>
     <disclaimer>
 
