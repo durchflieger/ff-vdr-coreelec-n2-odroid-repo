@@ -20,7 +20,7 @@ To use this version download and copy this [ff-vdr repository kodi addon](https:
 
 | Addon | Version |
 | ----- | ------- |
-| ff-vdr |  19.4.100 19.4.101 |
+| ff-vdr |  19.4.100 19.4.101 19.4.102 |
 | ff-vdr-eventlircd |  19.4.100 |
 | ff-vdr-fonts-vdrsymbols |  19.4.100 |
 | ff-vdr-frontend |  19.4.100 |

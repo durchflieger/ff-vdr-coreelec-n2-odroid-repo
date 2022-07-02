@@ -431,4 +431,35 @@ A DVB TV server application.
     </assets>
   </extension>
 </addon>
+<addon id="ff-vdr"
+       name="ff-vdr"
+       version="19.4.102"
+       provider-name="df">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A DVB TV server application.</summary>
+    <description>
+A DVB TV server application.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 </addons>
