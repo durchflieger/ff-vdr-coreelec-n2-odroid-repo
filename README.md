@@ -28,7 +28,7 @@ To use this version download and copy this [ff-vdr repository kodi addon](https:
 | ff-vdr-plugin-dfatmo |  19.4.100 |
 | ff-vdr-plugin-remoteosd |  19.4.100 |
 | ff-vdr-plugin-satip |  19.4.100 |
-| ff-vdr-plugin-softhdodroid |  19.4.100 |
+| ff-vdr-plugin-softhdodroid |  19.4.100 19.4.101 |
 | ff-vdr-plugin-streamdev |  19.4.100 19.4.101 |
 | ff-vdr-plugin-svdrpservice |  19.4.100 |
 | ff-vdr-repository |  19.4.100 |
