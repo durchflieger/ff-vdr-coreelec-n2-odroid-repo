@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="ff-vdr-eventlircd"
-       name="ff-vdr-eventlircd"
-       version="19.4.100"
-       provider-name="df">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>The eventlircd daemon provides four functions for LIRC devices</summary>
-    <description>
-The eventlircd daemon provides four functions for LIRC devices and has extensions to control LGE devices
-    </description>
-    <disclaimer>
-
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-100
-- initial
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
 <addon id="ff-vdr-fonts-vdrsymbols"
        name="ff-vdr-fonts-vdrsymbols"
        version="19.4.100"
@@ -255,6 +224,41 @@ A VDR video driver for Odroid hardware.
     </assets>
   </extension>
 </addon>
+<addon id="ff-vdr-plugin-softhdodroid"
+       name="ff-vdr-plugin-softhdodroid"
+       version="19.4.101"
+       provider-name="df">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="ff-vdr" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A VDR video driver for Odroid hardware.</summary>
+    <description>
+A VDR video driver for Odroid hardware.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+101
+- plugin version 3.7
+
+100
+- initial
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="ff-vdr-plugin-streamdev"
        name="ff-vdr-plugin-streamdev"
        version="19.4.100"
@@ -462,31 +466,27 @@ A DVB TV server application.
     </assets>
   </extension>
 </addon>
-<addon id="ff-vdr-plugin-softhdodroid"
-       name="ff-vdr-plugin-softhdodroid"
-       version="19.4.101"
+<addon id="ff-vdr-eventlircd"
+       name="ff-vdr-eventlircd"
+       version="19.4.100"
        provider-name="df">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 
-    <import addon="ff-vdr" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>A VDR video driver for Odroid hardware.</summary>
+    <summary>The eventlircd daemon provides four functions for LIRC devices</summary>
     <description>
-A VDR video driver for Odroid hardware.
+The eventlircd daemon provides four functions for LIRC devices and has extensions to control LGE devices
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
-101
-- plugin version 3.7
-
 100
 - initial
     </news>
